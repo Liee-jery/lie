@@ -345,7 +345,7 @@ if (!$data) {
             </div>
 
             <div class="actions">
-                <a href="tampilPetugas.php" class="btn btn-back">
+                <a href="index.php" class="btn btn-back">
                     ← Kembali
                 </a>
 

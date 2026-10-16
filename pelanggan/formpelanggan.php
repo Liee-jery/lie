@@ -287,7 +287,7 @@
         </div>
 
         <div class="button-row">
-            <a href="../tampilpetugas.php" class="btn btn-kembali">
+            <a href="../index.php" class="btn btn-kembali">
                 ← Kembali
             </a>
 

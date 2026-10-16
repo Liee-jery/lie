@@ -14,7 +14,7 @@ $query = "INSERT INTO pelanggan (id, nik, nama, alamat, no_hp, email)
 
 if (mysqli_query($koneksi, $query)) {
 
-    header("Location: ../tampilPetugas.php?status=sukses");
+    header("Location: ../index.php?status=sukses");
     exit();
 
 } else {

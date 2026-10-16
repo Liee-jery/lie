@@ -18,7 +18,7 @@ $query = "UPDATE petugas SET
 
 if (mysqli_query($koneksi, $query)) {
 
-    header("Location: tampilPetugas.php?status=ubah");
+    header("Location: index.php?status=ubah");
     exit();
 
 } else {

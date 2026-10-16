@@ -13,7 +13,7 @@ $query = "INSERT INTO kereta (id, nama_kereta, kelas, no_kursi)
 
 if (mysqli_query($koneksi, $query)) {
 
-    header("Location: ../tampilPetugas.php?status=sukses");
+    header("Location: ../index.php?status=sukses");
     exit();
 
 } else {

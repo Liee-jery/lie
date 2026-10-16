@@ -9,7 +9,7 @@ $query = "DELETE FROM petugas WHERE id='$id'";
 
 if (mysqli_query($koneksi, $query)) {
 
-    header("Location: ../tampilPetugas.php?status=hapus");
+    header("Location: ../index.php?status=hapus");
     exit();
 
 } else {

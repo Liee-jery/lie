@@ -9,7 +9,7 @@ $query3 = "DELETE FROM kereta WHERE id='$id'";
 
 if (mysqli_query($koneksi, $query3)) {
 
-    header("Location: ../tampilPetugas.php?status=hapus");
+    header("Location: ../index.php?status=hapus");
     exit();
 
 } else {
